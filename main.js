@@ -4,7 +4,7 @@ import vertexShader from "./shaders/vertex.glsl"
 import fragmentShader from "./shaders/fragment.glsl"
 import atmosphereVertexShader from "./shaders/atmosphereVertex.glsl"
 import atmosphereFragmentShader from "./shaders/atmosphereFragment.glsl"
-import globe from "./globe.jpg"
+import globe from "./textures/globe.jpg"
 
 const scene = new THREE.Scene()
 const camera = new THREE.PerspectiveCamera( 
