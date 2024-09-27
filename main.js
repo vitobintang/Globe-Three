@@ -28,7 +28,7 @@ const sphere = new THREE.Mesh(
         fragmentShader,
         uniforms: {
             globeTexture: {
-                value: new THREE.TextureLoader().load('https://www.solarsystemscope.com/textures/download/2k_earth_daymap.jpg')
+                value: new THREE.TextureLoader().load('./textures/globe.jpg')
             }
         }
     })
