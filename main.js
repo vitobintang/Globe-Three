@@ -167,7 +167,6 @@ document.addEventListener('wheel', (event) => {
     atmosphere.scale.set(1.1 + (camera.position.z / 100), 1.1 + (camera.position.z / 100), 1.1 + (camera.position.z / 100)); // Adjust atmosphere scale based on camera position
 }, { passive: false }); // Set passive to false
 
-
 // Raycaster for pin interaction
 const raycaster = new THREE.Raycaster();
 const pointer = new THREE.Vector2();
